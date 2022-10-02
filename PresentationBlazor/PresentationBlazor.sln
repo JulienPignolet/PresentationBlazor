@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.HelloWorldServer", "03.HelloWorldServer\03.HelloWorldServer.csproj", "{A86EA52C-6FD5-4071-9D29-52EC935B7A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HelloWorldServer", "03.HelloWorldServer\03.HelloWorldServer.csproj", "{A86EA52C-6FD5-4071-9D29-52EC935B7A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.HelloWorldWebAssembly", "03.HelloWorldWebAssembly\03.HelloWorldWebAssembly.csproj", "{BDA1AAE9-19F7-44F0-BD37-CDEC6E6C91CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HelloWorldWebAssembly", "03.HelloWorldWebAssembly\03.HelloWorldWebAssembly.csproj", "{BDA1AAE9-19F7-44F0-BD37-CDEC6E6C91CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Events", "08.Events\08.Events.csproj", "{A569E885-864D-4437-AC63-265CC0A18B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Events", "08.Events\08.Events.csproj", "{A569E885-864D-4437-AC63-265CC0A18B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Forms", "08.Forms\08.Forms.csproj", "{C181E287-7398-41B9-A49A-047295F71394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Forms", "08.Forms\08.Forms.csproj", "{C181E287-7398-41B9-A49A-047295F71394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.JsInterop", "10.JsInterop\10.JsInterop.csproj", "{DD58F980-2FCA-4ED9-986E-F4076942DFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.JsInterop", "10.JsInterop\10.JsInterop.csproj", "{DD58F980-2FCA-4ED9-986E-F4076942DFD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

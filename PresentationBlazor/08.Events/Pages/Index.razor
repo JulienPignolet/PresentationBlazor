@@ -1,9 +1,9 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Events</PageTitle>
 
-<h1>Hello, world!</h1>
+<PersonCard Person="@person"/>
 
-Welcome to your new app.
+<button class="pretty-button" @onclick="RenameToLaura">Rename to Laura</button>
+<button class="pretty-button" @onclick="@(() => person.FirstName = "Michele")">Rename to Michele with lambda</button>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
