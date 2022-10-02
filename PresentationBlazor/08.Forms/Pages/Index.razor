@@ -1,9 +1,10 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Forms</PageTitle>
 
-<h1>Hello, world!</h1>
+@foreach (var person in persons) 
+{
+    <PersonCard Person="person"/>
+}
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<NewPersonForm OnNewPerson="AddNewPerson" />

@@ -1,0 +1,17 @@
+﻿<EditForm Model="@person" OnValidSubmit="AddNewPerson">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label class="add-p-label">
+        First name
+        <InputText @bind-Value="person.FirstName" />
+        <ValidationMessage For="(() => person.FirstName)" />
+    </label>
+    <label class="add-p-label">
+        Last name
+        <InputText @bind-Value="person.LastName" />
+        <ValidationMessage For="(() => person.LastName)" />
+    </label>
+
+    <input class="pretty-button" type="submit" value="Ajouter" />
+</EditForm>
