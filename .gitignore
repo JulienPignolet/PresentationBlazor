@@ -3,3 +3,9 @@
 ################################################################################
 
 /PresentationBlazor/.vs/PresentationBlazor/v17
+/PresentationBlazor/03.HelloWorldServer/obj
+/PresentationBlazor/03.HelloWorldWebAssembly/obj
+/PresentationBlazor/08.Events/obj
+/PresentationBlazor/08.Forms/obj
+/PresentationBlazor/10.JsInterop/obj
+/PresentationBlazor/.vs
