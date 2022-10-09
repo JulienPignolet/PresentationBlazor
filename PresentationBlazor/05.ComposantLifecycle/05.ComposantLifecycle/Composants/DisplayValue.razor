@@ -1,0 +1,17 @@
+﻿@if (Value is not null)
+{
+    <div class="@CssClass">
+        @Value
+    </div>
+}
+else
+{
+    <div class="no-value @CssClass">
+        - 
+    </div>
+}
+
+@code {
+    [Parameter] public string CssClass { get; set; } = string.Empty;
+    [Parameter] public string Value { get; set; }
+}

@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Forms", "08.Forms\08.For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.JsInterop", "10.JsInterop\10.JsInterop.csproj", "{DD58F980-2FCA-4ED9-986E-F4076942DFD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComposantLifecycle", "05.ComposantLifecycle\05.ComposantLifecycle\05.ComposantLifecycle.csproj", "{D78C7F43-8765-420D-8905-DBB280154F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DD58F980-2FCA-4ED9-986E-F4076942DFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD58F980-2FCA-4ED9-986E-F4076942DFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD58F980-2FCA-4ED9-986E-F4076942DFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78C7F43-8765-420D-8905-DBB280154F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78C7F43-8765-420D-8905-DBB280154F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78C7F43-8765-420D-8905-DBB280154F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78C7F43-8765-420D-8905-DBB280154F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
