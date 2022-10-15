@@ -2,7 +2,7 @@
   {
     "date": "2018-05-06",
     "temperatureC": 1,
-    "summary": "Freezing"
+    "summary": null
   },
   {
     "date": "2018-05-07",
@@ -11,17 +11,17 @@
   },
   {
     "date": "2018-05-08",
-    "temperatureC": -13,
-    "summary": "Freezing"
+    "temperatureC": null,
+    "summary": null
   },
   {
-    "date": "2018-05-09",
+    "date": null,
     "temperatureC": -16,
     "summary": "Balmy"
   },
   {
     "date": "2018-05-10",
-    "temperatureC": -2,
+    "temperatureC": -1500,
     "summary": "Chilly"
   }
 ]

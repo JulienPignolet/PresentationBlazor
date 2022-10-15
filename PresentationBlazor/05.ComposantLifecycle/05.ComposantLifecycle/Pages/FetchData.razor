@@ -1,6 +1,8 @@
 ﻿@page "/fetchdata"
 @inject HttpClient Http
 
+@using _05.ComposantLifecycle.Composants;
+
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast</h1>
@@ -26,10 +28,32 @@ else
             @foreach (var forecast in forecasts)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.Date?.Date.ToShortDateString()</td>
                     <td>@forecast.TemperatureC</td>
                     <td>@forecast.TemperatureF</td>
                     <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td><DisplayValue Value="@forecast.Date?.Date.ToShortDateString()" CssClass="text-left-align" /></td>
+                    <td><DisplayValue Value="@forecast.TemperatureC?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Celsius" /></td>
+                    <td><DisplayValue Value="@forecast.TemperatureF?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Fahrenheit" /></td>
+                    <td><DisplayValue Value="@forecast.Summary" CssClass="text-left-align" /></td>
                 </tr>
             }
         </tbody>
@@ -41,17 +65,22 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data-component/weather.json");
     }
 
     public class WeatherForecast
     {
-        public DateTime Date { get; set; }
+        public DateTime? Date { get; set; }
 
-        public int TemperatureC { get; set; }
+        public int? TemperatureC { get; set; }
 
         public string? Summary { get; set; }
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        public int? TemperatureF => 32 + (int?)(TemperatureC / 0.5556);
+    }
+
+    public static class Symbol {
+        public static string Fahrenheit = "°F";
+        public static string Celsius = "°C";
     }
 }

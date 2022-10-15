@@ -17,10 +17,8 @@ Welcome to your new app.
 
         }
 
-        public void SetParametersAsync() => Console.WriteLine("Hello world 1");
-        
-        public void OnInitializedAsync() => Console.WriteLine("Hello world 2");
+        protected override async Task OnInitializedAsync() => Console.WriteLine("Hello world 1");
 
-        public void OnParametersAsync() => Console.WriteLine("Hello world 2");
+        protected override async Task OnParametersSetAsync() => Console.WriteLine("Hello world 2");
     }
 }

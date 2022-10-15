@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u3BBgM+EPXL9vlRT0aIIkv1D0LSCSaqG9oIDSWBnIC4=",
+  "Hash": "ut+VDyCx4Bh3F0KUck17DI9ykOaWefA0QcGaX/Xu+ew=",
   "Source": "05.ComposantLifecycle",
   "BasePath": "/",
   "Mode": "Root",
@@ -7089,12 +7089,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\mathc\\source\\repos\\PresentationBlazor\\PresentationBlazor\\05.ComposantLifecycle\\05.ComposantLifecycle\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Users\\mathc\\source\\repos\\PresentationBlazor\\PresentationBlazor\\05.ComposantLifecycle\\05.ComposantLifecycle\\wwwroot\\sample-data-component\\weather.json",
       "SourceId": "05.ComposantLifecycle",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mathc\\source\\repos\\PresentationBlazor\\PresentationBlazor\\05.ComposantLifecycle\\05.ComposantLifecycle\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
+      "RelativePath": "sample-data-component/weather.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7103,7 +7103,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+      "OriginalItemSpec": "wwwroot\\sample-data-component\\weather.json"
     }
   ]
 }
