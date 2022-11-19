@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Forms", "08.Forms\08.For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.JsInterop", "10.JsInterop\10.JsInterop.csproj", "{DD58F980-2FCA-4ED9-986E-F4076942DFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComposantLifecycle", "05.ComposantLifecycle\05.ComposantLifecycle\05.ComposantLifecycle.csproj", "{D78C7F43-8765-420D-8905-DBB280154F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ComposantLifecycle", "05.ComposantLifecycle\05.ComposantLifecycle\05.ComposantLifecycle.csproj", "{D78C7F43-8765-420D-8905-DBB280154F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RoutingLayout", "06.RoutingLayout\06.RoutingLayout\06.RoutingLayout.csproj", "{7191CFFE-9DBF-4A86-A029-5ADC1E1DFA17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.RoutingLayout", "06.RoutingLayout\06.RoutingLayout\06.RoutingLayout.csproj", "{7191CFFE-9DBF-4A86-A029-5ADC1E1DFA17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.DataBinding", "07.DataBinding\07.DataBinding\07.DataBinding.csproj", "{224C8656-E044-45B6-8570-B6CB426D6F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.DataBinding", "07.DataBinding\07.DataBinding\07.DataBinding.csproj", "{224C8656-E044-45B6-8570-B6CB426D6F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ShareData", "09.ShareData\09.ShareData\09.ShareData.csproj", "{6464C8BD-9137-42A4-A085-217EA199A5DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ShareData", "09.ShareData\09.ShareData\09.ShareData.csproj", "{6464C8BD-9137-42A4-A085-217EA199A5DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
