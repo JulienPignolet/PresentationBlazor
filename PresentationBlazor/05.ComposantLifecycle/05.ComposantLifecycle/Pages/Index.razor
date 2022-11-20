@@ -8,17 +8,3 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-@code {
-
-    public class MainIndex : ComponentBase {
-
-        public MainIndex()
-        {
-
-        }
-
-        protected override async Task OnInitializedAsync() => Console.WriteLine("Hello world 1");
-
-        protected override async Task OnParametersSetAsync() => Console.WriteLine("Hello world 2");
-    }
-}

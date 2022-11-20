@@ -1,0 +1,42 @@
+﻿@page "/lifecycle"
+@inject HttpClient Http
+
+@using _05.ComposantLifecycle.Composants;
+@using Domain
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <TableTemperature Forecasts="forecasts"></TableTemperature>
+}
+
+@code {
+
+    private WeatherForecast[]? forecasts { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data-component/weather.json");
+        Console.WriteLine("Hello OnInitializedAsync");
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("Hello OnParametersSet");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine(firstRender);
+        Console.WriteLine("Hello OnAfterRender");
+    }
+}
