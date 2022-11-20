@@ -39,6 +39,21 @@ else
     </table>
 
     <TableTemperature Forecasts="forecasts"></TableTemperature>
+
+    <TableRenderFragment Items="forecasts" Context="forecast">
+        <TableHeader>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </TableHeader>
+        <RowTemplate>
+            <td><DisplayValue Value="@forecast.Date?.Date.ToShortDateString()" CssClass="text-left-align" /></td>
+            <td><DisplayValue Value="@forecast.TemperatureC?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Celsius" /></td>
+            <td><DisplayValue Value="@forecast.TemperatureF?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Fahrenheit" /></td>
+            <td><DisplayValue Value="@forecast.Summary" CssClass="text-left-align" /></td>
+        </RowTemplate>
+    </TableRenderFragment>
 }
 
 @code {

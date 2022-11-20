@@ -22,8 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/05.ComposantLifecycle/05.ComposantLifecycle/Composants/DateDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xEYXRlRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/05.ComposantLifecycle/05.ComposantLifecycle/Composants/DisplayValue.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xEaXNwbGF5VmFsdWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/05.ComposantLifecycle/05.ComposantLifecycle/Composants/TableRenderFragment.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xUYWJsZVJlbmRlckZyYWdtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/05.ComposantLifecycle/05.ComposantLifecycle/Composants/TableTemperature.razor]

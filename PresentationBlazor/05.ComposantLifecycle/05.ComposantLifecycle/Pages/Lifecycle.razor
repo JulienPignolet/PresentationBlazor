@@ -1,4 +1,5 @@
 ﻿@page "/lifecycle"
+@page "/lifecycle/{todayDate:datetime}"
 @inject HttpClient Http
 
 @using _05.ComposantLifecycle.Composants;
@@ -9,6 +10,14 @@
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
+
+
+<button @onclick="() => UpdateDate()">UpdateDate</button>
+<br/>
+
+<p>Today date is <DateDisplay DateToDisplay="todayDate" /></p>
+
+<br/>
 
 @if (forecasts == null)
 {
@@ -21,6 +30,8 @@ else
 
 @code {
 
+    [Parameter] public DateTime todayDate { get; set; } 
+
     private WeatherForecast[]? forecasts { get; set; }
 
     protected override async Task OnInitializedAsync()
@@ -31,6 +42,7 @@ else
 
     protected override void OnParametersSet()
     {
+        Console.WriteLine(todayDate);
         Console.WriteLine("Hello OnParametersSet");
     }
 
@@ -38,5 +50,10 @@ else
     {
         Console.WriteLine(firstRender);
         Console.WriteLine("Hello OnAfterRender");
+    }
+
+    private void UpdateDate()
+    {
+        todayDate = todayDate.AddDays(1);
     }
 }
