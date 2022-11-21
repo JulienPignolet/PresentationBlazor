@@ -1,0 +1,23 @@
+﻿
+ @DateToDisplay
+
+@code {
+    [Parameter] public DateTime DateToDisplay { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("Hello OnInitializedAsync");
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine(DateToDisplay);
+        Console.WriteLine("Hello OnParametersSet");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine(firstRender);
+        Console.WriteLine("Hello OnAfterRender");
+    }
+}

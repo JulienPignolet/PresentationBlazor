@@ -1,0 +1,27 @@
+﻿@using Domain;
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var forecast in Forecasts)
+        {
+            <tr>
+                <td><DisplayValue Value="@forecast.Date?.Date.ToShortDateString()" CssClass="text-left-align" /></td>
+                <td><DisplayValue Value="@forecast.TemperatureC?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Celsius" /></td>
+                <td><DisplayValue Value="@forecast.TemperatureF?.ToString()" CssClass="text-right-align" Symbol="@Symbol.Fahrenheit" /></td>
+                <td><DisplayValue Value="@forecast.Summary" CssClass="text-left-align" /></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter] public WeatherForecast[]? Forecasts { get; set; }
+}
