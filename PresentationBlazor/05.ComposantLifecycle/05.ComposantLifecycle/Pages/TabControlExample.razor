@@ -1,0 +1,23 @@
+﻿@page "/tabcontrolexample"
+
+@using _05.ComposantLifecycle.Composants;
+
+<TabControl MasterPage="MainLayout" TabControlStyle="TabControlStyle.Panel">
+    <TabHeaderContent>
+        <TabHeader Text="Onglet 1" Key="1" />
+        <TabHeader Text="Onglet 2" Key="2" />
+        <TabHeader Text="Onglet 3" Key="3" />
+    </TabHeaderContent>
+    <ChildContent>
+        <TabPage Key="1">
+            <FetchData />
+        </TabPage>
+        <TabPage Key="2">
+            Hello world 2
+        </TabPage>
+        <TabPage Key="3">
+            Hello world 3
+        </TabPage>
+    </ChildContent>
+</TabControl>
+

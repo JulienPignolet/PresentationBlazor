@@ -1,0 +1,11 @@
+﻿
+<li class="nav-item-tab @GetActiveClass()" @onclick=@(() => Parent.ActivatePage(this))>
+    <span>
+        @Text
+    </span>
+
+    @if (AdditionalHeaderContent is not null)
+    {
+        @AdditionalHeaderContent
+    }
+</li>

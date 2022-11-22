@@ -19,6 +19,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Composants/DateDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xEYXRlRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Composants/DisplayValue.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xEaXNwbGF5VmFsdWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Composants/TableRenderFragment.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xUYWJsZVJlbmRlckZyYWdtZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Composants/TableTemperature.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xUYWJsZVRlbXBlcmF0dXJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +45,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Pages/Routing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm91dGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Pages/Routing2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm91dGluZzIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/06.RoutingLayout/06.RoutingLayout/Shared/SurveyPrompt.razor]

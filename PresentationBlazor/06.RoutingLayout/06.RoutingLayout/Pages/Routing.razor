@@ -1,0 +1,13 @@
+﻿@page "/routing"
+
+@inject NavigationManager Navigation
+
+Hello world <Button @onclick="() => GoToRouting2()">Go to routing 2</Button>
+
+@code {
+
+    private void GoToRouting2()
+    {
+        Navigation.NavigateTo("/routing2");
+    }
+}

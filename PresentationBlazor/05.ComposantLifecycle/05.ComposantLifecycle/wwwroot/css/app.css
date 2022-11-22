@@ -70,3 +70,78 @@ a, .btn-link {
 .text-left-align {
     text-align: left;
 }
+
+.tab-header {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 7.2rem;
+    background: grey;
+    align-items: flex-end;
+}
+
+
+.nav-item-tab {
+    background-color: grey;
+    margin-left: 2rem;
+    width: 19rem;
+    height: 4.2rem;
+    border-radius: 4rem 4rem 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+}
+
+.nav-item-tab > span {
+    margin-left: 2rem;
+}
+
+.nav-item-tab:hover {
+    cursor: pointer;
+}
+
+.nav-item-tab .nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    height: 2.5rem;
+    display: inline-block;
+}
+
+.nav-item-tab .nav-link.active {
+    background: none;
+}
+
+.nav-item-tab.active {
+    background-color: lightblue;
+    font-weight: bold;
+    padding-right: 0;
+}
+
+.tab-slash {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 6rem;
+}
+
+.tab-slash.li {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab-slash.nav-item-tab.active.span {
+    border-bottom: 1rem 1rem solid;
+    font-weight: bold;
+}
+
+.tab-slash.slash-separator {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 2rem;
+}
