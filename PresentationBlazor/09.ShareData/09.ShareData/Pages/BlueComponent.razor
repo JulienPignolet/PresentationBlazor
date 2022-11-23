@@ -1,0 +1,13 @@
+﻿@inject AppState AppState
+
+
+<button @onclick="SelectColour">Select Blue</button>
+
+@code {
+
+    void SelectColour()
+    {
+        AppState.SetColour("Blue");
+    }
+
+}
