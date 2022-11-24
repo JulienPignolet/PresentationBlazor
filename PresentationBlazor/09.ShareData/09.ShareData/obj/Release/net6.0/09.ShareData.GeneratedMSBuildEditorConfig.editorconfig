@@ -19,10 +19,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Composants/BlueComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xCbHVlQ29tcG9uZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Composants/ChildComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xDaGlsZENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,10 +35,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xQYXJlbnRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Composants/RedComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xSZWRDb21wb25lbnQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Composants/TabComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xUYWJDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Composants/TableTemperature.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9zYW50c1xUYWJsZVRlbXBlcmF0dXJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Pages/BlueComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmx1ZUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Pages/CascadingValue.razor]
@@ -77,6 +73,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Pages/RedComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathc/source/repos/PresentationBlazor/PresentationBlazor/09.ShareData/09.ShareData/Pages/StateContainer.razor]
